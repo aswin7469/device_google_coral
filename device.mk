@@ -1162,6 +1162,7 @@ include hardware/google/pixel/common/pixel-common-device.mk
 include hardware/google/pixel/vibrator/cs40l25/device.mk
 include hardware/google/pixel/pixelstats/device.mk
 include hardware/google/pixel/mm/device_legacy.mk
+include device/google/gs-common/thermal/thermal_hal/device.mk
 
 # Citadel
 include hardware/google/pixel/citadel/citadel.mk
