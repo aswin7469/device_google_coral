@@ -569,8 +569,8 @@ PRODUCT_PACKAGES += \
     nos_app_weaver:64
 
 # Protobuf
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full.so
 
 # Sensors
 PRODUCT_PACKAGES += \
