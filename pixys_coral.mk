@@ -55,7 +55,12 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_BATTERY := true
 TARGET_FACE_UNLOCK_SUPPORTED := false
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_FLATTEN_APEX := false
+MAINLINE_INCLUDE_VIRT_MODULE := false
+MAINLINE_INCLUDE_BTSERVICES_MODULE := false
 
+$(call inherit-product, vendor/mainline_modules/config.mk)
 $(call inherit-product, device/google/coral/device-coral.mk)
 $(call inherit-product-if-exists, vendor/google_devices/coral/proprietary/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/coral/prebuilts/device-vendor-coral.mk)
