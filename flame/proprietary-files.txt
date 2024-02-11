@@ -15,6 +15,9 @@ product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk;PRESIGNED
 # Camera extensions
 product/app/PixelCameraServicesFlame/PixelCameraServicesFlame.apk;PRESIGNED
 
+# Face
+system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk
+
 # Citadel - from coral-qd1a.190821.007-factory-e915f51a
 vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin|bc086148dd33158053e89002460879c16970782c
 
