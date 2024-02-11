@@ -1095,8 +1095,7 @@ PRODUCT_COPY_FILES += \
 # Permissions
 # NOTE: Used to deal with permission issues caused by Gapps updates
 PRODUCT_COPY_FILES += \
-    device/google/coral/permissions/pixel_permissions_product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/pixel_permissions_product.xml \
-    device/google/coral/permissions/settings.future.face.enroll.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/settings.future.face.enroll.xml
+    device/google/coral/permissions/pixel_permissions_product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/pixel_permissions_product.xml
 
 # powerstats HAL
 PRODUCT_PACKAGES += \
