@@ -1124,7 +1124,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-
 # Disable SPU usage
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gatekeeper.disable_spu = true
@@ -1149,6 +1148,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
 endif
 
+# Thermal HAL
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.pixel
+
 # Set support one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
@@ -1165,7 +1168,7 @@ include hardware/google/pixel/common/pixel-common-device.mk
 include hardware/google/pixel/vibrator/cs40l25/device.mk
 include hardware/google/pixel/pixelstats/device.mk
 include hardware/google/pixel/mm/device_legacy.mk
-include hardware/google/pixel/thermal/device.mk
+include device/google/coral/thermal/device.mk
 
 # Citadel
 include hardware/google/pixel/citadel/citadel.mk
