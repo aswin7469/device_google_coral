@@ -67,10 +67,10 @@ cc_binary {
 }
 
 sh_binary {
-  name: "thermal_symlinks",
-  src: "init.thermal.symlinks.sh",
+  name: "thermal_symlinks-floral",
+  src: "init.thermal.symlinks-floral.sh",
   vendor: true,
   init_rc: [
-    "pixel-thermal-symlinks.rc",
+    "pixel-thermal-symlinks-floral.rc",
   ],
 }
