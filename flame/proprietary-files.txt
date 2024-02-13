@@ -50,20 +50,9 @@ product/framework/uimremoteserverlibrary.jar
 product/framework/uimservicelibrary.jar
 
 # Radio
-product/etc/permissions/com.android.sdm.plugins.connmo.xml
-product/etc/permissions/com.android.sdm.plugins.dcmo.xml
-product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
-product/priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
-product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
-product/priv-app/ConnMO/ConnMO.apk
-product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
-product/priv-app/DiagMon/DiagMon.apk
-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # Sprint
 product/etc/permissions/com.android.sdm.plugins.sprintdm.xml
