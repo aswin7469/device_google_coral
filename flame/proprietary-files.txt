@@ -121,7 +121,6 @@ system_ext/etc/permissions/com.google.euiccpixel.xml
 system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
-system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 system_ext/priv-app/EuiccGoogle/esim-a1.img
 system_ext/priv-app/EuiccGoogle/esim-a2.img
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
