@@ -57,8 +57,7 @@ TARGET_SUPPORTS_GOOGLE_BATTERY := true
 TARGET_FACE_UNLOCK_SUPPORTED := false
 TARGET_SUPPORTS_NOW_PLAYING := true
 TARGET_FLATTEN_APEX := false
-MAINLINE_INCLUDE_VIRT_MODULE := false
-MAINLINE_INCLUDE_BTSERVICES_MODULE := false
+MAINLINE_INCLUDE_WIFI_MODULE := true
 
 $(call inherit-product, vendor/mainline_modules/config.mk)
 $(call inherit-product, device/google/coral/device-coral.mk)

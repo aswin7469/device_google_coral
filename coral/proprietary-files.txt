@@ -49,6 +49,7 @@ product/framework/uimservicelibrary.jar
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/priv-app/DMService/DMService.apk
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # Sprint
 product/etc/permissions/com.android.sdm.plugins.sprintdm.xml
