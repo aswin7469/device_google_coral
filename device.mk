@@ -768,6 +768,7 @@ endif
 # Wifi
 PRODUCT_PACKAGES += \
     wificond \
+    libwifi-hal-ctrl:64 \
     libwpa_client \
     WifiOverlay
 
