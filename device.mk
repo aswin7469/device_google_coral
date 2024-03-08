@@ -769,6 +769,8 @@ endif
 
 # Wifi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi-V2-ndk.vendor:64 \
+    android.hardware.wifi@1.0.vendor:64 \
     wificond \
     libwifi-hal-ctrl:64 \
     libwpa_client \
