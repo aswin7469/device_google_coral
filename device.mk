@@ -723,13 +723,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermal_info_config_$(PRODUCT_HARDWARE).json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
     $(LOCAL_PATH)/thermal_info_config_$(PRODUCT_HARDWARE)_jaws.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config_jaws.json
 
-PRODUCT_PACKAGES += \
-    android.hardware.thermal-service.pixel-floral
-
-# Thermal utils
-PRODUCT_PACKAGES += \
-    thermal_symlinks-floral
-
 #GNSS HAL
 PRODUCT_PACKAGES += \
     libgps.utils \
@@ -1122,6 +1115,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 
 # Disable SPU usage
 PRODUCT_PROPERTY_OVERRIDES += \
