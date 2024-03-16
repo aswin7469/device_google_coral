@@ -21,12 +21,4 @@
      for different hardware and product builds.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
-    <string-array name="face_error_vendor">
-        <item>Certificate expired</item>
-        <item>Sensor temporarily disabled</item>
-        <item>Calibration error</item>
-        <item>Face unlock unavailable. Phone is too hot.</item>
-        <item>Face unlock needs to be set up again</item>
-    </string-array>
 </resources>
