@@ -54,6 +54,8 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_BATTERY := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+TARGET_INCLUDE_CARRIER_SERVICES := true
 
 $(call inherit-product, device/google/coral/device-coral.mk)
 $(call inherit-product-if-exists, vendor/google_devices/coral/proprietary/device-vendor.mk)
