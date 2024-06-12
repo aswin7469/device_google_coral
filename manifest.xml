@@ -160,6 +160,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
+<<<<<<< HEAD
     <hal format="hidl">
       <name>vendor.google.google_battery</name>
       <transport>hwbinder</transport>
@@ -169,6 +170,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <instance>default</instance>
       </interface>
     </hal>
+=======
+>>>>>>> be053d69120bb0628853487eadbad9ea63d436fc
     <hal format="hidl">
         <name>vendor.google.radioext</name>
         <transport>hwbinder</transport>

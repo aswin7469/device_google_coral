@@ -758,8 +758,12 @@ endif
 
 # Wifi
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.wifi-V2-ndk.vendor:64 \
     android.hardware.wifi@1.0.vendor:64 \
+=======
+    android.hardware.wifi-service \
+>>>>>>> be053d69120bb0628853487eadbad9ea63d436fc
     wificond \
     libwifi-hal-ctrl:64 \
     libwpa_client \
@@ -1166,6 +1170,12 @@ include hardware/google/pixel/vibrator/cs40l25/device.mk
 include hardware/google/pixel/pixelstats/device.mk
 include hardware/google/pixel/mm/device_legacy.mk
 include device/google/gs-common/thermal/thermal_hal/device.mk
+<<<<<<< HEAD
+=======
+
+# gs-common
+include device/google/gs-common/misc_writer/misc_writer.mk
+>>>>>>> be053d69120bb0628853487eadbad9ea63d436fc
 
 # Citadel
 include hardware/google/pixel/citadel/citadel.mk

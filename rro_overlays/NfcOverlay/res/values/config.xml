@@ -26,4 +26,8 @@
     <item>G020M</item>
     <item>G020N</item>
   </string-array>
+<<<<<<< HEAD
+=======
+  <bool name="nfc_observe_mode_supported">true</bool>
+>>>>>>> be053d69120bb0628853487eadbad9ea63d436fc
 </resources>

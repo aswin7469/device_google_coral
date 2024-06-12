@@ -27,5 +27,10 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
 
 COMMON_LUNCH_CHOICES := \
+<<<<<<< HEAD
     pixys_coral-userdebug \
     pixys_flame-userdebug \
+=======
+    aosp_coral-trunk_staging-userdebug \
+    aosp_flame-trunk_staging-userdebug \
+>>>>>>> be053d69120bb0628853487eadbad9ea63d436fc
