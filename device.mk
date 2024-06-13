@@ -266,6 +266,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.uicc.xml \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml \
 
+# Audio
+PRODUCT_PACKAGES += \
+    libaudioroute.vendor
+
 # Audio fluence, ns, aec property, voice and media volume steps
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.sdk.fluencetype=fluencepro \
@@ -609,7 +613,8 @@ PRODUCT_PACKAGES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libwifi-hal:64 \
-    libwifi-hal-qcom
+    libwifi-hal-qcom \
+    libwifi-system-iface.vendor:64
 
 # Misc interfaces
 PRODUCT_PACKAGES += \
@@ -655,7 +660,11 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.4.vendor:64 \
     android.hardware.wifi@1.5.vendor:64 \
     android.hardware.wifi@1.6.vendor:64 \
-    android.system.net.netd@1.1.vendor:64
+    android.system.net.netd@1.1.vendor:64 \
+    libcrypto_utils.vendor:64 \
+    libpng.vendor \
+    libsqlite.vendor \
+    libssl.vendor:32
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
