@@ -59,7 +59,7 @@ product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
 product/priv-app/DiagMon/DiagMon.apk
-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|cf3cbda0371d40b02781b1a9fe9e52dbc9606423
 product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # Sprint
@@ -125,7 +125,7 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 # Radio
 system_ext/etc/permissions/com.android.omadm.radioconfig.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
-system_ext/etc/permissions/com.google.euiccpixel.xml
+system_ext/etc/permissions/com.google.euiccpixel.xml|5d4a270d528e8624f96fb6cdb9f6f951b1f430d8
 system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
