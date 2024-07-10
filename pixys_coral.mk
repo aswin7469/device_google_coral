@@ -44,6 +44,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 # Inherit some common PixysOS stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# Inherit my custom setup for unofficial
+$(call inherit-product, vendor/extras/config.mk)
+
 # PixysOS Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1440
