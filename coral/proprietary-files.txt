@@ -14,9 +14,6 @@ product/app/PixelCameraServicesCoral/PixelCameraServicesCoral.apk;PRESIGNED
 # Citadel - from coral-qd1a.190821.007-factory-e915f51a
 vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin|bc086148dd33158053e89002460879c16970782c
 
-# Dreamliner
-product/etc/sysconfig/dreamliner.xml
-
 # Felica
 product/etc/felica/common.cfg
 product/etc/felica/mfm.cfg
@@ -54,7 +51,6 @@ product/etc/permissions/com.android.sdm.plugins.dcmo.xml
 product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm/libdmengine.so
 product/lib/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm/libdmjavaplugin.so
-product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
@@ -80,7 +76,6 @@ product/etc/permissions/features-verizon.xml
 product/etc/sysconfig/allowlist_com.android.omadm.service.xml
 product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
 product/priv-app/OemDmTrigger/OemDmTrigger.apk
-product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 
 # system_ext partition
 
@@ -129,7 +124,6 @@ system_ext/etc/permissions/com.google.euiccpixel.xml|5d4a270d528e8624f96fb6cdb9f
 system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
-system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 system_ext/priv-app/EuiccGoogle/esim-a1.img
 system_ext/priv-app/EuiccGoogle/esim-a2.img
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
